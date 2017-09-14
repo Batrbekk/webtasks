@@ -1,0 +1,63 @@
+#bmw{
+	width: absolute;
+	height:49%;
+	border: 2px solid #000;
+	border-color:#6B6C6C;
+}
+#TextBMW{
+	position: absolute;
+	margin-top: -70px;
+	margin-left: 700px;
+}
+#bmwphoto{
+	position: absolute;
+	margin-top: 130px;
+	margin-left: 10px;
+}
+#line{
+	margin-top:100px;
+	width: absolute;
+	height: 2px;
+	background-color:#6B6C6C; 
+}
+#box1{
+	position: absolute;
+	margin-top: -10px;
+	margin-left: 300px;
+	width: 75%;
+	height: 33.5%;
+	border-left: 2px solid #000;
+	border-color:#6B6C6C;
+}
+#porsche{
+	margin-top: 10px;
+	width: absolute;
+	height:49%;
+	border: 2px solid #000;
+	border-color:#6B6C6C;
+}
+#porschephoto{
+	position: absolute;
+	margin-top: 130px;
+	margin-left: 10px;
+}
+#line2{
+	margin-top:100px;
+	width: absolute;
+	height: 2px;
+	background-color:#6B6C6C; 
+}
+#box2{
+	position: absolute;
+	margin-top: -10px;
+	margin-left: 300px;
+	width: 75%;
+	height: 33.5%;
+	border-left: 2px solid #000;
+	border-color:#6B6C6C;
+}
+#TextPorsche{
+	position: absolute;
+	margin-top: -70px;
+	margin-left: 670px;
+}

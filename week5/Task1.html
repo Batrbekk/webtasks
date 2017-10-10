@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Find | determinant for matrices</title>
+		<meta charset="UTF-8">
+		<script src="js1.js" defer></script>
+		<style type="text/css">
+			.Big1 div{
+				display: inline-flex;
+				margin-top: 2px;
+			}	
+			.Big2 div{
+				display: inline-flex;
+				margin-top: 2px;
+			}
+			.Big3 div{
+				display: inline-flex;
+				margin-top: 2px;
+			}
+			#bt1{
+				margin-top: 10px;
+				color: #e2391b;
+				background-color: #040404;
+				border-color: #e2391b; 
+			}
+			#answer{
+				margin-top: 0px;
+				font-size: 30px;
+				color: red;
+			}
+			.Big1 input{
+				width: 100px;
+			}
+			.Big2 input{
+				width: 100px;
+			}
+			.Big3 input{
+				width: 100px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class = "Big1">
+			<div>
+				<input type="text" id="sum1"/>
+			</div>
+
+			<div>
+				<input type="text" id="sum2"/>
+			</div>
+
+			<div>
+				<input type="text" id="sum3"/>
+			</div>
+		</div>
+		
+		<div class = "Big2">
+			<div >
+				<input type="text" id="sum4"/>
+			</div>
+
+			<div >
+				<input type="text" id="sum5"/>
+			</div>
+
+			<div >
+				<input type="text" id="sum6"/>
+			</div>
+		</div>		
+		
+		<div class = "Big3">
+			<div >
+				<input type="text" id="sum7"/>
+			</div>
+
+			<div >
+				<input type="text" id="sum8"/>
+			</div>
+
+			<div >
+				<input type="text" id="sum9"/>
+			</div>
+		</div>
+
+		<button id = "bt1" onclick="ClickMe()">Find Determinante!</button>
+		<p id = "answer">0</p>
+	</body>
+</html>
